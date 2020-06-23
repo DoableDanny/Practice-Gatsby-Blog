@@ -36,7 +36,7 @@
 //   // Create single blog posts
 //   data.allMdx.edges.forEach(edge => {
 //     const slug = edges.node.frontMatter.slug
-//     const slug = edges.node.id
+//     const id = edges.node.id
 //     actions.createPages({
 //       path: slug,
 //       component: require.resolve(`./src/templates/singlePost.js`),
